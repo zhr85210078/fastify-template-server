@@ -8,14 +8,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "vitest",
     "start": "wireit",
     "build": "wireit",
     "typecheck": "wireit",
-    "dev": "cross-env FASTIFY_AUTOLOAD_TYPESCRIPT=1 node --import=tsx --watch --env-file=.env ./src/index.ts",
-    "check": "biome check --write ./src",
-    "check:unsafe": "biome check --write-unsafe ./src",
-    "release": "release-it"
+    "dev": "cross-env FASTIFY_AUTOLOAD_TYPESCRIPT=1 node --import=tsx --watch --env-file=.env ./src/index.ts"
   },
   "wireit": {
     "start": {
@@ -47,7 +43,7 @@
     }
   },
   "keywords": [],
-  "author": "Douglas Moura <douglas.ademoura@gmail.com>",
+  "author": "horan",
   "license": "MIT",
   "dependencies": {
     "@fastify/autoload": "^6.0.2",
@@ -57,32 +53,30 @@
     "@fastify/multipart": "^9.0.1",
     "@fastify/mysql": "^5.0.1",
     "@fastify/sensible": "^6.0.1",
-    "@fastify/swagger": "^9.2.0",
+    "@fastify/swagger": "^9.4.0",
     "@google-cloud/vertexai": "^1.9.2",
     "@jvddavid/pino-rotating-file": "^1.0.6",
-    "@scalar/fastify-api-reference": "^1.25.43",
+    "@scalar/fastify-api-reference": "^1.25.66",
     "@types/crypto-js": "^4.2.2",
-    "close-with-grace": "^2.1.0",
+    "close-with-grace": "^2.2.0",
     "crypto-js": "^4.2.0",
-    "fastify": "^5.0.0",
+    "fastify": "^5.2.0",
     "fastify-plugin": "^5.0.1",
     "fastify-type-provider-zod": "^4.0.2",
-    "pino": "^9.5.0",
+    "pino": "^9.6.0",
     "reflect-metadata": "^0.2.2",
     "typeorm": "^0.3.20",
     "typeorm-fastify-plugin": "^3.0.0",
-    "zod": "^3.23.8"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/node": "^22.7.8",
+    "@types/node": "^22.10.0",
     "cross-env": "^7.0.3",
     "fastify-tsconfig": "^2.0.0",
     "pino-pretty": "^11.3.0",
-    "release-it": "^17.10.0",
     "tsc-alias": "^1.8.10",
-    "tsx": "^4.19.1",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
     "wireit": "^0.14.9"
   }
 }
