@@ -1,8 +1,6 @@
 # 🚀 fastify-template-server
 
-fastify api server
-
-The project inspiration comes from (https://github.com/DouglasdeMoura/fastify-ts-starter "fastify-ts-starter")
+fastify api server (the project inspiration comes from [fastify-ts-starter](https://github.com/DouglasdeMoura/fastify-ts-starter))
 
 <img width="600" height="300" src="./img/back.jpeg">
 
