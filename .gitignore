@@ -73,3 +73,4 @@ test
 .vscode/settings.json
 pnpm-lock.yaml
 logs/**/*.json
+.vercel

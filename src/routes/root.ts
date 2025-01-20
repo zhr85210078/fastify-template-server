@@ -26,7 +26,7 @@ const root: FastifyPluginAsync = async (fastify, _opts): Promise<void> => {
   fastify.get("/healthcheck", async (request, reply) => {
     const options = {
       host: "localhost",
-      port: process.env.PORT || 3691,
+      port: process.env.PORT || 80,
       timeout: 2000,
       path: "/api/ping",
     };
