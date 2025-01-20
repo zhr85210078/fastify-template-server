@@ -15,7 +15,7 @@
   },
   "wireit": {
     "start": {
-      "command": "pnpm run build && node dist/index.js",
+      "command": "npm run build && node dist/index.js",
       "clean": "if-file-deleted",
       "files": [
         "src/**/*.ts",
